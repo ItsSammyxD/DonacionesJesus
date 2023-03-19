@@ -16,18 +16,18 @@ public class pacienteTest {
     public static void main(String[] args) {
         
         pacienteDao pacienteDao = new pacienteDao();
-        String nombrePaciente = "Samuel Luciano";
-        String apellidoPaciente = "Beato Flete";
-        String cedulaPaciente = "1-234-342-3424";
+        String nombrePaciente = "Maria Amelia";
+        String apellidoPaciente = "";
+        String cedulaPaciente = "1-544-312-7644";
         String sexoPaciente = "F";
         int edadPaciente = 16;
-        double alturaPaciente = 182.5;
-        double pesoPaciente = 123;
+        double alturaPaciente = 151.0;
+        double pesoPaciente = 110;
         double presionPaciente = 88;
-        String notaPaciente = "Tiene buena salud!";
-        String correoPaciente = "";
+        String notaPaciente = "Tiene salud!";
+        String correoPaciente = "MariaAmelia@gmail.com";
         Date fechaNacimiento = new Date(2006, 07, 05);
-        String numeroTelefono = "809-345-3424";
+        String numeroTelefono = "829-523-3421";
         String direccionPaciente = "";
         
         System.out.println(pacienteDao.registrarPaciente(nombrePaciente, apellidoPaciente, cedulaPaciente, sexoPaciente, edadPaciente, alturaPaciente, 
